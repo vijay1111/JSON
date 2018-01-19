@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.vijay.json.VolleyAndroidHive.Volley_Receive_Data">
+
+
+    <Button
+        android:id="@+id/json_object_request"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="view_click"
+        android:text="json_object_request" />
+
+    <Button
+        android:id="@+id/jsonArray"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="view_click"
+        android:text="jsonArray" />
+
+    <Button
+        android:id="@+id/string_request"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="view_click"
+        android:text="string request" />
+
+    <Button
+        android:id="@+id/image_receive"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="view_click"
+        android:text="image_receive" />
+
+
+    <TextView
+        android:id="@+id/msgResponse"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="" />
+
+    <com.android.volley.toolbox.NetworkImageView
+        android:id="@+id/imgNetwork"
+        android:layout_width="fill_parent"
+        android:layout_height="150dp"
+        android:layout_margin="10dp"
+        android:layout_marginTop="50dp"
+        android:scaleType="fitXY" />
+
+
+</LinearLayout>
